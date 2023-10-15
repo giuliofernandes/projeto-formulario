@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>GL</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Cadastre-se</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+            </ul>            
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Formulário Curso de Informática</h1>
+            <p>Aqui temos um formulário para os alunos do curso de informática da escola Maria Môsa</p>
+        </section>
+        <section>
+            <form action="cadastro.php" method="get" autocomplete="on">
+                <div>
+                    <label for="inome">Nome <br>
+                        <input type="text" name="nome" id="inome" required autocomplete="name" placeholder="Digite seu nome">
+                    </label>
+                </div>
+                <div>
+                    <label for="iemail">Email <br>
+                        <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="Digite seu email">
+                    </label>
+                </div>
+                <div>
+                    <label for="iidade">Idade (opcional)<br>
+                        <input type="number" name="idade" id="iidade" placeholder="Idade">
+                    </label>
+                </div>
+                <div>
+                    <label for="icurso">Qual seu curso? <br>
+                        <select name="curso" id="icurso">
+                            <option value="selecione">Selecione</option>
+                            <option value="1ano">1° Ano</option>
+                            <option value="2ano">2° Ano</option>
+                            <option value="3ano">3° Ano</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <label for="ifuturo">Pretende seguir na área de TI? <br>
+                        <input type="radio" name="futuro" id="ifuturo">Sim <br>
+                        <input type="radio" name="futuro" id="ifuturo">Não <br>
+                        <input type="radio" name="futuro" id="ifuturo">Talvez <br>
+                    </label>
+                </div>
+                <div>
+                    <label for="iprof">Qual seu professor preferido? <br>
+                        <select name="prof" id="iprof">
+                            <option value="selecione">Selecione</option>
+                            <option value="douglas">Douglas</option>
+                            <option value="jackson">Jackson</option>
+                            <option value="dt">Seu DT</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <label for="iarea">Qual área do curso pretende seguir? <br>
+                        <input type="checkbox" name="area" id="iarea"> Desevolvimento Web <br>
+                        <input type="checkbox" name="area" id="iarea"> Desevolvimento de Software <br>
+                        <input type="checkbox" name="area" id="iarea"> Redes de Computadores <br>
+                        <input type="checkbox" name="area" id="iarea"> Hardware <br>
+                        <input type="checkbox" name="area" id="iarea"> Design <br>
+                        <input type="checkbox" name="area" id="iarea"> Outro <br>
+                    </label>
+                </div>
+                <div>
+                    <label for="icoment"> Algum comentário ou sugestão? <br>
+                        <textarea name="coment" id="icoment" cols="30" rows="10"></textarea>
+                    </label>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
