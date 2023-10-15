@@ -121,6 +121,13 @@ section#form > form > div > label > textarea {
     height: 100px;
 }
 
+section#form > form > div > input#submit {
+    background-color: #47cf73;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 ::selection {
     background-color: #47cf73;
     color: #000;
