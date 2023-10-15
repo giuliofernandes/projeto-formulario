@@ -1,10 +1,6 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
-    body, html {
-        width: 98.7vw;
-    }
-
     header > h1 {
         font-size: 3em;
     }
