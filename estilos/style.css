@@ -19,4 +19,31 @@ body {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    color: white;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+header > h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+header > nav > ul > li {
+    list-style-type: none;
+    display: inline;
+    background-color: rgb(68, 72, 87);
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+header > nav > ul > li > a {
+    color: white;
+    text-decoration: none;
 }
