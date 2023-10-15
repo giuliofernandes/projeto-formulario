@@ -9,11 +9,6 @@
     box-sizing: border-box;
 }
 
-body, html {
-    height: 100vh;
-    width: 100vw;
-}
-
 body {
     background-image: url(../images/computador.jpg);
     background-position: center center;
