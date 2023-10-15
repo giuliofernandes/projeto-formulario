@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 576px) {
+    section#form {
+        margin: auto;
+        width: 565px;
+        border-radius: 5px;
+    }
+}
